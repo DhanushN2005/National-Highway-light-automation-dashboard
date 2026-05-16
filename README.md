@@ -1,92 +1,137 @@
-🛣️ National Highway Light Automation Dashboard
+# 🛣️ National Highway Light Automation Dashboard
 
-A smart dashboard system to monitor and automate highway lighting status for better energy efficiency and safety.
+An intelligent IoT-powered dashboard system designed to monitor, control, and automate national highway street lighting for enhanced energy efficiency, smart infrastructure management, and public safety.
 
-This repository contains the frontend code (likely built with TypeScript/CSS) for the dashboard interface — showing real-time light status and controls.
+This project provides a modern web-based interface for real-time highway light monitoring, automation control, and centralized management of lighting infrastructure.
 
-🧠 Project Overview
+---
 
-This project provides a web-based dashboard to:
+# 🧠 Project Overview
 
-Display current status of highway lights
+The National Highway Light Automation Dashboard helps authorities and infrastructure teams efficiently manage highway lighting systems through smart automation and real-time monitoring.
 
-Allow toggling or automation of lights
+The platform enables:
+- Monitoring of street light status in real time
+- Automated ON/OFF scheduling of highway lights
+- Centralized dashboard-based infrastructure management
+- Energy optimization and reduced power consumption
+- Future integration with IoT sensors and analytics systems
 
-Help admin users manage lighting infrastructure
+---
 
-This can be useful for government agencies and infrastructure monitoring teams.
+# ✨ Features
 
-🛠️ Features
+✔️ Modern and responsive dashboard UI  
+✔️ Real-time light status monitoring  
+✔️ Automated and manual light control  
+✔️ Scalable IoT integration support  
+✔️ Energy-efficient lighting management  
+✔️ Extensible architecture for analytics and alerts  
+✔️ Smart infrastructure monitoring system
 
-✔️ Modern, responsive UI
-✔️ Real-time update potential
-✔️ Easy integration with sensors / backend
-✔️ Extensible to analytics and alerts
+---
 
-(Feel free to update this list based on your actual implementation!)
+# 🚀 Tech Stack
 
-🚀 Tech Stack
-Section	Technology
-Frontend	TypeScript, CSS
-Styling	CSS
-(Future) Backend	Node.js / Python / Any
-📁 Repository Structure
+| Section | Technology |
+|---|---|
+| Frontend | TypeScript, HTML, CSS |
+| UI Styling | CSS |
+| Dashboard | React / TypeScript |
+| IoT Integration | MQTT / ESP32 (Future Scope) |
+| Backend (Future) | Node.js / Python Flask |
+| Database (Optional) | MySQL / Firebase |
+
+---
+
+# 📁 Repository Structure
+
+```bash
 /
-├── src/                  # Frontend source
+├── src/                  # Frontend source files
 ├── public/               # Static assets
+├── components/           # UI components
+├── styles/               # CSS styling
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
-(Adjust based on your actual folders — this is a sample.)
+---
 
-🧩 Installation
+# ⚙️ Installation
 
-Clone the repo
+### Clone the repository
 
+```bash
 git clone https://github.com/DhanushN2005/National-Highway-light-automation-dashboard.git
 cd National-Highway-light-automation-dashboard
+```
 
-Install dependencies
+### Install dependencies
 
+```bash
 npm install
+```
 
-Start the development server
+### Run the development server
 
+```bash
 npm start
+```
 
-Then open your browser at http://localhost:3000 (or the default port shown in your terminal).
+Open your browser at:
 
-📦 Environment Variables
+```bash
+http://localhost:3000
+```
 
-If your app connects to APIs or a backend, include an .env.example like:
+---
 
-REACT_APP_API_URL=https://api.example.com
+# 📦 Environment Variables
 
-(Add others as needed.)
+Create a `.env` file and configure API endpoints if needed:
 
-📊 How It Works
+```env
+REACT_APP_API_URL=https://your-api-url.com
+```
 
-The dashboard fetches light status from an API.
+---
 
-Displays map or list of highway lights.
+# 📊 System Workflow
 
-User can switch lights ON/OFF or schedule automation.
+1. Dashboard fetches highway light status from APIs or IoT devices  
+2. Displays real-time monitoring data on the dashboard  
+3. Allows administrators to control lights manually or automatically  
+4. Future versions can support:
+   - WebSocket real-time updates
+   - AI-based energy optimization
+   - Fault detection alerts
+   - Smart city integrations
 
-Future versions can add real-time updates using WebSockets.
+---
 
-🤝 Contribution
+# 🤝 Contribution
 
-If you want to contribute:
+Contributions are welcome!
 
-Fork the project
+### Steps:
+1. Fork the repository  
+2. Create a feature branch  
+3. Commit your changes  
+4. Push to your branch  
+5. Open a Pull Request
 
-Create a new branch (git checkout -b feature)
+---
 
-Commit your changes
+# 🏷️ GitHub Topics
 
-Open a Pull Request
+`iot` `smart-lighting` `automation-dashboard` `highway-management` `smart-city` `energy-efficiency` `typescript` `reactjs` `iot-dashboard` `real-time-monitoring`
 
-📝 License
+---
 
-This project is open-source and free to use.
+# 📝 License
+
+This project is open-source and available for educational and development purposes.
+
+By Dhanush N.
